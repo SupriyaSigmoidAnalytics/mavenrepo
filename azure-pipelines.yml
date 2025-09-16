@@ -7,9 +7,7 @@ trigger:
 - master
 
 pool:
-  name: Default
-  demands:
-  - agent.name -equals supriyaagent
+  name: supriyaagent
 
 steps:
 - task: Maven@3
