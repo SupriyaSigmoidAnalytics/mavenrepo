@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: supriyaagent1
+  name: supriya
 
 steps:
 - task: Maven@3
